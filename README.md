@@ -12,7 +12,7 @@ Ce projet est une application de gestion de tickets développée en Java avec Sp
 - OpenAPI (Swagger) pour la documentation
 
 ## Comment exécuter l'application
-- S'authentier avec user/password sur http://localchost:9090
+- Aller sur http://localhost:9090/swagger-ui.html' en s'authentiant avec user/password pour retrouver la documentation de l'api
 
 ## Endpoints REST
 - GET /api/users: Récupérer tous les utilisateurs
@@ -24,7 +24,7 @@ Ce projet est une application de gestion de tickets développée en Java avec Sp
 - POST /api/tickets: Créer un nouveau ticket
 - PUT /api/tickets/{id}: Mettre à jour un ticket existant
 - PUT /api/tickets/{id}/assign/{useId}: Assigner un ticket à un utilisateur
-- DELETE /api/tickets /{id}: Supprimer un ticket par son ID
+- DELETE /api/tickets/{id}: Supprimer un ticket par son ID
 
 ## Auteur
 christinandyzo
